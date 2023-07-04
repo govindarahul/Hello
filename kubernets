@@ -1,1 +1,4 @@
 kubectl run firstapp --image=gcr.io/google-samples/kubernetes-bootcamp:v1  --port=8080
+kubectl get pods
+kubectl expose pod firstapp --type=NodePort
+kubectl get service
