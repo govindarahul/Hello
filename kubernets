@@ -2,3 +2,4 @@ kubectl run firstapp --image=gcr.io/google-samples/kubernetes-bootcamp:v1  --por
 kubectl get pods
 kubectl expose pod firstapp --type=NodePort
 kubectl get service
+kubectl exec --stdin --tty nginx -- /bin/bash
