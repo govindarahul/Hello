@@ -3,3 +3,4 @@ kubectl get pods
 kubectl expose pod firstapp --type=NodePort
 kubectl get service
 kubectl exec --stdin --tty nginx -- /bin/bash
+echo 'Hello shell demo' > /usr/share/nginx/html/index.html
